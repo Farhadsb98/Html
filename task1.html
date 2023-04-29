@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <title>Task1</title>
+    <head>
+      <h1>Loan Application</h1>
+      <h2 style="background-color: aqua">Applicant Information</h2>
+    </head>
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="jhon" /><br />
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="Smith" /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="jhon.smith@example.com"
+      /><br />
+      <label for="Security">Social Security</label>
+      <input type="number" placeholder="123-45-6789" id="Security" /><br />
+      <label for="Daytime">Daytime Phone</label>
+      <input type="tel" id="Daytime" placeholder="+994709979897" /><br />
+      <label for="Evening">Evening Phone</label>
+      <input type="tel" id="Evening" placeholder="+994708507585" /><br />
+
+      <h2 style="background-color: aqua">Loan Information</h2>
+
+      <label for="Type">Loan Type</label>
+      <select id="Type">
+        <option value="Automobile">Automobile</option>
+        <option value="Motocykle">Motocykle</option>
+        <option value="Hybrid">Hybrid</option>
+        <option value="Electric">Electric</option></select
+      ><br />
+      <label for="Amount">Loan Amount $</label>
+      <input
+        min="1500"
+        max="30000 "
+        id="Amount"
+        type="number"
+        placeholder="1500-30000"
+      /><br />
+      <label for="Description">Description</label>
+      <textarea placeholder="Car Information"></textarea>
+      <label for="send">Send</label>
+      <input id="send" type="submit" />
+    </form>
+  </body>
+</html>
